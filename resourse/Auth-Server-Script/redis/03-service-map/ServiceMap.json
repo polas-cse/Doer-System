@@ -1,0 +1,3029 @@
+{
+    "antarika/postgres/generic-select/v1/select": {
+        "product": "antarika",
+        "component": "postgres",
+        "feature": "generic-select",
+        "version": "v1",
+        "service": "select",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/postgres/generic-insert/v1/insert-single": {
+        "product": "antarika",
+        "component": "postgres",
+        "feature": "generic-insert",
+        "version": "v1",
+        "service": "insert-single",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/postgres/generic-insert/v1/insert-multiple": {
+        "product": "antarika",
+        "component": "postgres",
+        "feature": "generic-insert",
+        "version": "v1",
+        "service": "insert-multiple",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/postgres/generic-update/v1/update": {
+        "product": "antarika",
+        "component": "postgres",
+        "feature": "generic-update",
+        "version": "v1",
+        "service": "update",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/postgres/generic-delete/v1/delete": {
+        "product": "antarika",
+        "component": "postgres",
+        "feature": "generic-delete",
+        "version": "v1",
+        "service": "delete",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/postgres/generic-function/v1/execute-function": {
+        "product": "antarika",
+        "component": "postgres",
+        "feature": "generic-function",
+        "version": "v1",
+        "service": "execute-function",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/redis/generic-select/v1/select": {
+        "product": "antarika",
+        "component": "redis",
+        "feature": "generic-select",
+        "version": "v1",
+        "service": "select",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/redis/generic-select/v1/select-single": {
+        "product": "antarika",
+        "component": "redis",
+        "feature": "generic-select",
+        "version": "v1",
+        "service": "select-single",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/redis/generic-insert/v1/insert-single": {
+        "product": "antarika",
+        "component": "redis",
+        "feature": "generic-insert",
+        "version": "v1",
+        "service": "insert-single",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/redis/generic-remove/v1/remove-single": {
+        "product": "antarika",
+        "component": "redis",
+        "feature": "generic-remove",
+        "version": "v1",
+        "service": "remove-single",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/filesystem/generic-data/v1/save": {
+        "product": "antarika",
+        "component": "filesystem",
+        "feature": "generic-data",
+        "version": "v1",
+        "service": "save",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/filesystem/generic-data/v1/get": {
+        "product": "antarika",
+        "component": "filesystem",
+        "feature": "generic-data",
+        "version": "v1",
+        "service": "get",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/filesystem/generic-data/v1/delete": {
+        "product": "antarika",
+        "component": "filesystem",
+        "feature": "generic-data",
+        "version": "v1",
+        "service": "delete",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "antarika/redis/oid-generator/v1/generate-oid": {
+        "product": "antarika",
+        "component": "redis",
+        "feature": "oid-generator",
+        "version": "v1",
+        "service": "generate-oid",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "cecurity/authentication/application/v1/authenticate-application": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "application",
+        "version": "v1",
+        "service": "authenticate-application",
+        "roles": [
+            "*"
+        ]
+    },
+    "cecurity/authentication/client/v1/authenticate-client": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "client",
+        "version": "v1",
+        "service": "authenticate-client",
+        "roles": [
+            "*"
+        ]
+    },
+    "cecurity/authentication/user/v1/authenticate-user": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "user",
+        "version": "v1",
+        "service": "authenticate-user",
+        "roles": [
+            "*"
+        ]
+    },
+    "cecurity/authentication/user/v1/authenticate-system": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "user",
+        "version": "v1",
+        "service": "authenticate-system",
+        "roles": [
+            "*"
+        ]
+    },
+    "cecurity/authentication/token/v1/validate-token": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "token",
+        "version": "v1",
+        "service": "validate-token",
+        "roles": [
+            "*",
+            "SERVICE"
+        ]
+    },
+    "cecurity/authorization/service/v1/validate-by-role": {
+        "product": "cecurity",
+        "component": "authorization",
+        "feature": "service",
+        "version": "v1",
+        "service": "validate-by-role",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "cecurity/common/enquiry/v1/get-by-request-id": {
+        "product": "cecurity",
+        "component": "common",
+        "feature": "enquiry",
+        "version": "v1",
+        "service": "get-by-request-id",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "cecurity/common/enquiry/v1/get-user-info-by-loginId": {
+        "product": "cecurity",
+        "component": "common",
+        "feature": "enquiry",
+        "version": "v1",
+        "service": "get-user-info-by-loginId",
+        "roles": [
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.TOPEXEC",
+            "LIFE.INSURANCE.CO.OFFICIAL",
+            "NON-LIFE.INSURANCE.CO.TOPEXEC",
+            "NON-LIFE.INSURANCE.CO.OFFICIAL",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "cecurity/authentication/user/v1/logout": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "user",
+        "version": "v1",
+        "service": "logout",
+        "roles": [
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.TOPEXEC",
+            "LIFE.INSURANCE.CO.OFFICIAL",
+            "NON-LIFE.INSURANCE.CO.TOPEXEC",
+            "NON-LIFE.INSURANCE.CO.OFFICIAL",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "cecurity/authentication/user/v1/change-password": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "user",
+        "version": "v1",
+        "service": "change-password",
+        "roles": [
+            "IDRA.SA",
+            "IDRA.SYSADMIN",
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.TOPEXEC",
+            "LIFE.INSURANCE.CO.OFFICIAL",
+            "NON-LIFE.INSURANCE.CO.TOPEXEC",
+            "NON-LIFE.INSURANCE.CO.OFFICIAL",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "cecurity/authentication/user/v1/password-reset": {
+        "product": "cecurity",
+        "component": "authentication",
+        "feature": "user",
+        "version": "v1",
+        "service": "password-reset",
+        "roles": [
+            "*"
+        ]
+    },
+    "cecurity/session/user/v1/get-list": {
+        "product": "cecurity",
+        "component": "session",
+        "feature": "user",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "IDRA.SYS.ADMIN",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "cecurity/session/user/v1/terminate": {
+        "product": "cecurity",
+        "component": "session",
+        "feature": "user",
+        "version": "v1",
+        "service": "terminate",
+        "roles": [
+            "IDRA.SYS.ADMIN",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "cecurity/session/user/v1/get-application-list": {
+        "product": "cecurity",
+        "component": "session",
+        "feature": "user",
+        "version": "v1",
+        "service": "get-application-list",
+        "roles": [
+            "IDRA.SYS.ADMIN",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "cecurity/common/enquiry/v1/get-password-policy": {
+        "product": "cecurity",
+        "component": "common",
+        "feature": "enquiry",
+        "version": "v1",
+        "service": "get-password-policy",
+        "roles": [
+            "SERVICE",
+            "IDRA.SA",
+            "IDRA.MAKER",
+            "IDRA.SYS.ADMIN",
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.TOPEXEC",
+            "LIFE.INSURANCE.CO.OFFICIAL",
+            "NON-LIFE.INSURANCE.CO.TOPEXEC",
+            "NON-LIFE.INSURANCE.CO.OFFICIAL",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "ump/company/profile/v1/get-list": {
+        "product": "ump",
+        "component": "company",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/company/profile/v1/get-by-oid": {
+        "product": "ump",
+        "component": "company",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/processor/profile/v1/get-list": {
+        "product": "ump",
+        "component": "processor",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/processor/profile/v1/get-by-oid": {
+        "product": "ump",
+        "component": "processor",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/queue": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "queue",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/send-sms": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "send-sms",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/master/v1/find-list": {
+        "product": "ump",
+        "component": "job",
+        "feature": "master",
+        "version": "v1",
+        "service": "find-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/master/v1/get-list": {
+        "product": "ump",
+        "component": "job",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/get-detail-by-oid": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "get-detail-by-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/get-sms-log-by-job-oid": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "get-sms-log-by-job-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/get-sent-sms-log-by-job-oid": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "get-sent-sms-log-by-job-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/get-failed-sms-log-by-job-oid": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "get-failed-sms-log-by-job-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/remove": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "remove",
+        "roles": [
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/job/operation/v1/cancel": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "cancel",
+        "roles": [
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/file-transfer/file/v1/delete": {
+        "product": "ump",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "delete",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.MAKER"
+        ]
+    },
+    "ump/file-transfer/file/v1/download": {
+        "product": "ump",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "download",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/file-transfer/file/v1/transfer": {
+        "product": "ump",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "transfer",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.MAKER"
+        ]
+    },
+    "ump/file-transfer/file/v1/get-list": {
+        "product": "ump",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/person/master/v1/get-list": {
+        "product": "ump",
+        "component": "person",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/person/master/v1/get-by-oid": {
+        "product": "ump",
+        "component": "person",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/insurance/master/v1/save": {
+        "product": "ump",
+        "component": "insurance",
+        "feature": "master",
+        "version": "v1",
+        "service": "save",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/insurance/master/v1/edit": {
+        "product": "ump",
+        "component": "insurance",
+        "feature": "master",
+        "version": "v1",
+        "service": "edit",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/insurance/master/v1/get-list": {
+        "product": "ump",
+        "component": "insurance",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/insurance/master/v1/get-by-oid": {
+        "product": "ump",
+        "component": "insurance",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/report/sms/v1/sms-list": {
+        "product": "ump",
+        "component": "report",
+        "feature": "sms",
+        "version": "v1",
+        "service": "sms-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/role/master/v1/get-list": {
+        "product": "ump",
+        "component": "role",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "*",
+            "SERVICE",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/user/master/v1/get-list": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/user/master/v1/get-by-oid": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/user/master/v1/save-as-new": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "save-as-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/get-new-list": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-new-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/get-unauth-by-oid": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-unauth-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/user/master/v1/lock-new": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "lock-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/get-my-editable-list": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-my-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/save-edit": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "save-edit",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/get-editable-list": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/lock-editable": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "lock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/unlock-editable": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "unlock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/user/master/v1/get-approval-list": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/user/master/v1/lock-for-approval": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "lock-for-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/user/master/v1/get-my-approval-list": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "get-my-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/user/master/v1/add-approver-remark": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "add-approver-remark",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/user/master/v1/unlock-approval": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "unlock-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/user/master/v1/approve": {
+        "product": "ump",
+        "component": "user",
+        "feature": "master",
+        "version": "v1",
+        "service": "approve",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/staff/profile/v1/get-list": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/staff/profile/v1/get-by-oid": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/staff/profile/v1/save-as-new": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "save-as-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/get-new-list": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-new-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/get-unauth-by-oid": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-unauth-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/staff/profile/v1/lock-new": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "lock-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/get-my-editable-list": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-my-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/save-edit": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "save-edit",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/get-editable-list": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/lock-editable": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "lock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/unlock-editable": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "unlock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/staff/profile/v1/get-approval-list": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/staff/profile/v1/lock-for-approval": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "lock-for-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/staff/profile/v1/get-my-approval-list": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-my-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/staff/profile/v1/add-approver-remark": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "add-approver-remark",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/staff/profile/v1/unlock-approval": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "unlock-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/staff/profile/v1/approve": {
+        "product": "ump",
+        "component": "staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "approve",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-list": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-by-oid": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/ins-staff/profile/v1/save-as-new": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "save-as-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-new-list": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-new-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-unauth-by-oid": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-unauth-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/lock-new": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "lock-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-my-editable-list": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-my-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/save-edit": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "save-edit",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-editable-list": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/lock-editable": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "lock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/unlock-editable": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "unlock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-approval-list": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/lock-for-approval": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "lock-for-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/get-my-approval-list": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "get-my-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/add-approver-remark": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "add-approver-remark",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/unlock-approval": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "unlock-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/ins-staff/profile/v1/approve": {
+        "product": "ump",
+        "component": "ins-staff",
+        "feature": "profile",
+        "version": "v1",
+        "service": "approve",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/password-policy/v1/save-as-new": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "save-as-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-new-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-new-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-unauth-by-oid": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-unauth-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/password-policy/v1/lock-new": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "lock-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-my-editable-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-my-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/save-edit": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "save-edit",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-editable-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-editable-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/lock-editable": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "lock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/unlock-editable": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "unlock-editable",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-by-oid": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-approval-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/password-policy/v1/lock-for-approval": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "lock-for-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/password-policy/v1/get-my-approval-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "get-my-approval-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/password-policy/v1/add-approver-remark": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "add-approver-remark",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/password-policy/v1/unlock-approval": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "unlock-approval",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/password-policy/v1/approve": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "password-policy",
+        "version": "v1",
+        "service": "approve",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/upload-schedule/v1/get-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "upload-schedule",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/settings/upload-schedule/v1/get-new-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "upload-schedule",
+        "version": "v1",
+        "service": "get-new-list",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/settings/upload-schedule/v1/save-as-new": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "upload-schedule",
+        "version": "v1",
+        "service": "save-as-new",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/settings/upload-schedule/v1/approve": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "upload-schedule",
+        "version": "v1",
+        "service": "approve",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/upload-schedule/v1/delete": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "upload-schedule",
+        "version": "v1",
+        "service": "delete",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN"
+        ]
+    },
+    "ump/settings/upload-schedule/v1/get-upload-schedule-info": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "upload-schedule",
+        "version": "v1",
+        "service": "get-upload-schedule-info",
+        "roles": [
+            "INSURANCE.CO.MAKER"
+        ]
+    },
+    "ump/report/e-receipt/v1/money-receipt": {
+        "product": "ump",
+        "component": "report",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "money-receipt",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/report/e-receipt/v1/original-receipt": {
+        "product": "ump",
+        "component": "report",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "original-receipt",
+        "roles": [
+            "SERVICE",
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.SYS.ADMIN",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/web/e-receipt/v1/generate-original-receipt": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "generate-original-receipt",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/view-original-receipt": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "view-original-receipt",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/get-original-receipt-detail": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "get-original-receipt-detail",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/get-company-list": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "get-company-list",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/send-otp": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "send-otp",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/view-policy-statement": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "view-policy-statement",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/view-cover-policy-statement": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "view-cover-policy-statement",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/generate-money-receipt": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "generate-money-receipt",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/view-money-receipt": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "view-money-receipt",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/verify-otp": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "verify-otp",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/web/e-receipt/v1/get-money-receipt-detail": {
+        "product": "ump",
+        "component": "web",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "get-money-receipt-detail",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "ump/job/operation/v1/send-email": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "send-email",
+        "roles": [
+            "SERVICE",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/get-email-log-by-job-oid": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "get-email-log-by-job-oid",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/get-sent-email-log-by-job-oid": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "get-sent-email-log-by-job-oid",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/job/operation/v1/get-failed-email-log-by-job-oid": {
+        "product": "ump",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "get-failed-email-log-by-job-oid",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "ump/settings/bill/v1/get-bill-quarter-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "bill",
+        "version": "v1",
+        "service": "get-bill-quarter-list",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/settings/bill/v1/get-bill-year-list": {
+        "product": "ump",
+        "component": "settings",
+        "feature": "bill",
+        "version": "v1",
+        "service": "get-bill-year-list",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "ump/report/sms/v1/sms-summary": {
+        "product": "ump",
+        "component": "report",
+        "feature": "sms",
+        "version": "v1",
+        "service": "sms-summary",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL"
+        ]
+    },
+    "ump/report/sms/v1/download-sms-summary": {
+        "product": "ump",
+        "component": "report",
+        "feature": "sms",
+        "version": "v1",
+        "service": "download-sms-summary",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL"
+        ]
+    },
+    "ump/report/life/v1/get-new-policy-list": {
+        "product": "ump",
+        "component": "report",
+        "feature": "life",
+        "version": "v1",
+        "service": "get-new-policy-list",
+        "roles": [
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.APPROVER",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/report/non-life/v1/get-new-cover-policy-list": {
+        "product": "ump",
+        "component": "report",
+        "feature": "non-life",
+        "version": "v1",
+        "service": "get-new-cover-policy-list",
+        "roles": [
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.APPROVER",
+            "IDRA.MAKER"
+        ]
+    },
+    "ump/report/life/v1/get-lapsed-policy-list": {
+        "product": "ump",
+        "component": "report",
+        "feature": "life",
+        "version": "v1",
+        "service": "get-lapsed-policy-list",
+        "roles": [
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.APPROVER",
+            "IDRA.MAKER"
+        ]
+    },
+    "drws/messenger/message/v1/send-sms": {
+        "product": "drws",
+        "component": "messenger",
+        "feature": "message",
+        "version": "v1",
+        "service": "send-sms",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "drws/message/template/v1/get-template-by-id": {
+        "product": "drws",
+        "component": "message",
+        "feature": "template",
+        "version": "v1",
+        "service": "get-template-by-id",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "drws/message/template/v1/get-template-list": {
+        "product": "drws",
+        "component": "message",
+        "feature": "template",
+        "version": "v1",
+        "service": "get-template-list",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "drws/message/template/v1/update-template-by-id": {
+        "product": "drws",
+        "component": "message",
+        "feature": "template",
+        "version": "v1",
+        "service": "update-template-by-id",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "drws/job/operation/v1/send-sms": {
+        "product": "drws",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "send-sms",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "drws/job/operation/v1/send-email": {
+        "product": "drws",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "send-email",
+        "roles": [
+            "SERVICE"
+        ]
+    },
+    "insurance/file-transfer/file/v1/send": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "send",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.MAKER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/validate": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "validate",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.MAKER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/file-detail-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "file-detail-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/remove": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "remove",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.MAKER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/file-detail-by-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "file-detail-by-oid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/preload": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "preload",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.MAKER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/load": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "load",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/download-invalid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "download-invalid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/file/v1/reject": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "file",
+        "version": "v1",
+        "service": "reject",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/policy/v1/get-valid-policy-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "policy",
+        "version": "v1",
+        "service": "get-valid-policy-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/policy/v1/get-invalid-policy-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "policy",
+        "version": "v1",
+        "service": "get-invalid-policy-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/policy/v1/get-policy-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "policy",
+        "version": "v1",
+        "service": "get-policy-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/policy/v1/get-list-by-file-detail-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "policy",
+        "version": "v1",
+        "service": "get-list-by-file-detail-oid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/policy/v1/get-policy-by-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "policy",
+        "version": "v1",
+        "service": "get-policy-by-oid",
+        "roles": [
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.APPROVER",
+            "IDRA.MAKER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-valid-pr-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-valid-pr-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-invalid-pr-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-invalid-pr-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-pr-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-pr-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-pr-list-by-file-detail-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-pr-list-by-file-detail-oid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-valid-or-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-valid-or-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-invalid-or-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-invalid-or-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-or-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-or-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-or-list-by-file-detail-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-or-list-by-file-detail-oid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/collection/v1/get-or-by-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "collection",
+        "version": "v1",
+        "service": "get-or-by-oid",
+        "roles": [
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.APPROVER",
+            "IDRA.MAKER"
+        ]
+    },
+    "insurance/job/operation/v1/queue": {
+        "product": "insurance",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "queue",
+        "roles": [
+            "*",
+            "IDRA.MAKER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/job/operation/v1/send-email": {
+        "product": "insurance",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "send-email",
+        "roles": [
+            "*",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/job/operation/v1/send-sms": {
+        "product": "insurance",
+        "component": "job",
+        "feature": "operation",
+        "version": "v1",
+        "service": "send-sms",
+        "roles": [
+            "*",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/cover-policy/v1/get-valid-cover-policy-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "cover-policy",
+        "version": "v1",
+        "service": "get-valid-cover-policy-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/cover-policy/v1/get-invalid-cover-policy-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "cover-policy",
+        "version": "v1",
+        "service": "get-invalid-cover-policy-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/cover-policy/v1/get-cover-policy-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "cover-policy",
+        "version": "v1",
+        "service": "get-cover-policy-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/cover-policy/v1/get-list-by-file-detail-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "cover-policy",
+        "version": "v1",
+        "service": "get-list-by-file-detail-oid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/cover-policy/v1/get-cover-policy-by-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "cover-policy",
+        "version": "v1",
+        "service": "get-cover-policy-by-oid",
+        "roles": [
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.APPROVER",
+            "IDRA.MAKER"
+        ]
+    },
+    "insurance/file-transfer/money-receipt/v1/get-valid-money-receipt-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "money-receipt",
+        "version": "v1",
+        "service": "get-valid-money-receipt-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/money-receipt/v1/get-invalid-money-receipt-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "money-receipt",
+        "version": "v1",
+        "service": "get-invalid-money-receipt-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/money-receipt/v1/get-money-receipt-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "money-receipt",
+        "version": "v1",
+        "service": "get-money-receipt-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/money-receipt/v1/get-list-by-file-detail-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "money-receipt",
+        "version": "v1",
+        "service": "get-list-by-file-detail-oid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/money-receipt/v1/get-money-receipt-by-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "money-receipt",
+        "version": "v1",
+        "service": "get-money-receipt-by-oid",
+        "roles": [
+            "IDRA.TOPEXEC",
+            "IDRA.OFFICIAL",
+            "IDRA.SA",
+            "IDRA.SYS.ADMIN",
+            "IDRA.APPROVER",
+            "IDRA.MAKER"
+        ]
+    },
+    "insurance/file-transfer/endorse-addendum/v1/get-valid-endorse-addendum-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "endorse-addendum",
+        "version": "v1",
+        "service": "get-valid-endorse-addendum-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/endorse-addendum/v1/get-invalid-endorse-addendum-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "endorse-addendum",
+        "version": "v1",
+        "service": "get-invalid-endorse-addendum-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/endorse-addendum/v1/get-endorse-addendum-list": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "endorse-addendum",
+        "version": "v1",
+        "service": "get-endorse-addendum-list",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/file-transfer/endorse-addendum/v1/get-list-by-file-detail-oid": {
+        "product": "insurance",
+        "component": "file-transfer",
+        "feature": "endorse-addendum",
+        "version": "v1",
+        "service": "get-list-by-file-detail-oid",
+        "roles": [
+            "*",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/generate/e-receipt/v1/get-original-receipt-list": {
+        "product": "insurance",
+        "component": "generate",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "get-original-receipt-list",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/generate/e-receipt/v1/get-money-receipt-list": {
+        "product": "insurance",
+        "component": "generate",
+        "feature": "e-receipt",
+        "version": "v1",
+        "service": "get-money-receipt-list",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/sms/v1/get-sms-status-list": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "sms",
+        "version": "v1",
+        "service": "get-sms-status-list",
+        "roles": [
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/sms/v1/get-sent-sms-list": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "sms",
+        "version": "v1",
+        "service": "get-sent-sms-list",
+        "roles": [
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/sms/v1/get-failed-sms-list": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "sms",
+        "version": "v1",
+        "service": "get-failed-sms-list",
+        "roles": [
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/sms/v1/get-premium-reminder-sms-status-list": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "sms",
+        "version": "v1",
+        "service": "get-premium-reminder-sms-status-list",
+        "roles": [
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/sms/v1/get-non-life-payment-notification-sms-status-list": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "sms",
+        "version": "v1",
+        "service": "get-non-life-payment-notification-sms-status-list",
+        "roles": [
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/bill/v1/get-bill-count-by-quarter": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "bill",
+        "version": "v1",
+        "service": "get-bill-count-by-quarter",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/bill/v1/get-quarter-data-by-type": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "bill",
+        "version": "v1",
+        "service": "get-quarter-data-by-type",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/monitor/bill/v1/download-by-type": {
+        "product": "insurance",
+        "component": "monitor",
+        "feature": "bill",
+        "version": "v1",
+        "service": "download-by-type",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER",
+            "LIFE.INSURANCE.CO.MAKER",
+            "LIFE.INSURANCE.CO.APPROVER",
+            "NON-LIFE.INSURANCE.CO.MAKER",
+            "NON-LIFE.INSURANCE.CO.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/get-list": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/save": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "save",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/get-type-list": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "get-type-list",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/get-by-oid": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/save-edit": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "save-edit",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/upload": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "upload",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/application/v1/download": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "download",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/discard": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "discard",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/application/v1/remove-file": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "remove-file",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/application/v1/unlink": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "unlink",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/application/v1/link": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "link",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/application/v1/update": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "update",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/application/v1/get-logo": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "application",
+        "version": "v1",
+        "service": "get-logo",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/get-list": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "get-list",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/save": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "save",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/batch/v1/update": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "update",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/get-by-oid": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "get-by-oid",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER",
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/discard": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "discard",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/batch/v1/unlink": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "unlink",
+        "roles": [
+            "NON-LIFE.INSURANCE.CREATOR",
+            "NON-LIFE.INSURANCE.SUBMITTER"
+        ]
+    },
+    "insurance/agent/batch/v1/lock": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "lock",
+        "roles": [
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/unlock": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "unlock",
+        "roles": [
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/get-all-list": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "get-all-list",
+        "roles": [
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/get-list-by-user": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "get-list-by-user",
+        "roles": [
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/update-ack-reference": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "update-ack-reference",
+        "roles": [
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/agent/batch/v1/get-approve-list": {
+        "product": "insurance",
+        "component": "agent",
+        "feature": "batch",
+        "version": "v1",
+        "service": "get-approve-list",
+        "roles": [
+            "IDRA.APPLICATION.REVIEWER",
+            "IDRA.APPLICATION.APPROVER"
+        ]
+    },
+    "insurance/process/file/v1/get-file-list": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "file",
+        "version": "v1",
+        "service": "get-file-list",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/file/v1/get-file-detail": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "file",
+        "version": "v1",
+        "service": "get-file-detail",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/policy/v1/process-invalid": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "policy",
+        "version": "v1",
+        "service": "process-invalid",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/policy/v1/process-duplicate": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "policy",
+        "version": "v1",
+        "service": "process-duplicate",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/policy/v1/process-unusual": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "policy",
+        "version": "v1",
+        "service": "process-unusual",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/policy/v1/process-new": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "policy",
+        "version": "v1",
+        "service": "process-new",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/policy/v1/process-no-change": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "policy",
+        "version": "v1",
+        "service": "process-no-change",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/policy/v1/process-update-existing": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "policy",
+        "version": "v1",
+        "service": "process-update-existing",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    },
+    "insurance/process/policy/v1/get-processed-data-by-type": {
+        "product": "insurance",
+        "component": "process",
+        "feature": "policy",
+        "version": "v1",
+        "service": "get-processed-data-by-type",
+        "roles": [
+            "IDRA.MAKER",
+            "IDRA.APPROVER"
+        ]
+    }
+}

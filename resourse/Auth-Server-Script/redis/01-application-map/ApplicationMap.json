@@ -1,0 +1,102 @@
+[
+    {
+        "product": "brownfield",
+        "type": "web",
+        "name": "brownfield-admin",
+        "application": "brownfield-admin-0",
+        "description": "Brownfield Admin Web",
+        "userId": "-",
+        "password": "-",
+        "roleId": ""
+    },
+    {
+        "product": "antarika",
+        "type": "container",
+        "name": "antarika-service",
+        "application": "antarika-service-0",
+        "description": "Antarika Container service",
+        "userId": "antarika-service",
+        "password": "antarika-service",
+        "roleId": "SERVICE"
+    },
+    {
+        "product": "cecurity",
+        "type": "container",
+        "name": "cecurity-service",
+        "application": "cecurity-service-0",
+        "description": "Cecurity Container service",
+        "userId": "cecurity-service",
+        "password": "cecurity-service",
+        "roleId": "SERVICE"
+    },
+    {
+        "product": "ump",
+        "type": "container",
+        "name": "ump-service",
+        "application": "ump-service-0",
+        "description": "Ump Container service",
+        "userId": "ump-service",
+        "password": "ump-service",
+        "roleId": "SERVICE"
+    },
+    {
+        "product": "drws",
+        "type": "container",
+        "name": "drws-service",
+        "application": "drws-service-0",
+        "description": "Drws Container service",
+        "userId": "drws-service",
+        "password": "drws-service",
+        "roleId": "SERVICE"
+    },
+    {
+        "product": "drws",
+        "type": "container",
+        "name": "drws-service",
+        "application": "drws-service-1",
+        "description": "Drws Container service",
+        "userId": "drws-service",
+        "password": "drws-service",
+        "roleId": "SERVICE"
+    },
+    {
+        "product": "insurance",
+        "type": "container",
+        "name": "insurance-service",
+        "application": "insurance-service-0",
+        "description": "Insurance Container service",
+        "userId": "insurance-service",
+        "password": "insurance-service",
+        "roleId": "SERVICE"
+    },
+    {
+        "product": "extern",
+        "type": "container",
+        "name": "extern-service",
+        "application": "extern-service-0",
+        "description": "Extern Container service",
+        "userId": "extern-service",
+        "password": "extern-service",
+        "roleId": "SERVICE"
+    },
+    {
+        "product": "python",
+        "type": "script",
+        "name": "python-master-data",
+        "application": "python-master-data",
+        "description": "Python script for master-data",
+        "userId": "python-master-data",
+        "password": "python-master-data",
+        "roleId": "REGRESSION"
+    },
+    {
+        "product": "python",
+        "type": "script",
+        "name": "python-regression",
+        "application": "python-regression",
+        "description": "Python script for regression test",
+        "userId": "python-regression",
+        "password": "python-regression",
+        "roleId": "REGRESSION"
+    }
+]

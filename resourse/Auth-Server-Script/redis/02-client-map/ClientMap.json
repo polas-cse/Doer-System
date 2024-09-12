@@ -1,0 +1,212 @@
+[
+    {
+        "client": "28:B2:BD:6B:0C:2E",
+        "type": "laptop",
+        "description": "Tanim's Laptop - Wifi",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "3C:A9:F4:34:02:B8",
+        "type": "laptop",
+        "description": "Mashud's Laptop- Wifi",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "52:54:00:2F:CE:74",
+        "type": "server",
+        "description": "192.168.7.19's -wifi",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "5C:51:4F:E7:72:8C",
+        "type": "server",
+        "description": "Mashud's T440s- Wifi",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "7C:7A:91:8F:CC:F3",
+        "type": "laptop",
+        "description": "Ashraful's Laptop- Wifi",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "58:FB:84:3F:8A:81",
+        "type": "laptop",
+        "description": "Laboni's MAC",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "D0:53:49:5A:15:15",
+        "type": "laptop",
+        "description": "Nasima Laptop",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "42:01:0A:94:00:05",
+        "type": "laptop",
+        "description": "GCP-Live",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "42:01:0A:8C:00:02",
+        "type": "laptop",
+        "description": "GCP-Test",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "02:42:EA:76:FE:AC",
+        "type": "laptop",
+        "description": "GCP-Test-2",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "3C:A9:F4:34:91:94",
+        "type": "laptop",
+        "description": "Lota's MAC",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "24:77:03:8A:31:00",
+        "type": "laptop",
+        "description": "Kamrun's MAC",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "E8:B1:FC:F3:B4:75",
+        "type": "laptop",
+        "description": "Ealham's MAC",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    },
+    {
+        "client": "52:54:00:04:6E:B3",
+        "type": "laptop",
+        "description": "Nova's MAC",
+        "applications": [
+            "brownfield-admin-0",
+            "antarika-service-0",
+            "cecurity-service-0",
+            "ump-service-0",
+            "drws-service-0",
+            "drws-service-1",
+            "insurance-service-0",
+            "extern-service-0"
+        ]
+    }
+]

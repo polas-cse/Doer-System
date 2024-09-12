@@ -1,0 +1,78 @@
+
+There are four Redis tables :
+1. ApplicationMap - Used by redis/generic-insert/v1/insert-single
+2. ClientMap - Used by redis/generic-insert/v1/insert-single
+3. ServiceMap - Used by redis/generic-insert/v1/insert-single
+4. TokenMap - Used by authentication/user/v1/authenticate-user
+
+1.1 ApplicationMap table
+This table list all applications that are authorized and each looks like this
+{
+	"antarika-browser": {
+		"product": "antarika",
+		"type": "web",
+		"name": "browser",
+		"application": "antarika-browser",
+		"description": "Antarika data browser"
+	}
+}
+key : Application Name
+product : Product Name
+type : Example data - web/script/container/android
+name : Application Name
+application : Product+Name
+description : Description of Application
+
+
+1.2 ClientMap table
+This table list all clients that are authorized and each looks like this
+{
+	"24:fd:52:d0:1b:cb": [
+		"antarika-browser",
+		"cecurity-admin"
+	]
+}
+key : MAC Address or IMEI Number
+value : Array of application names
+
+
+1.3 ServiceMap table
+This table list all services that are authorized and each looks like this
+{
+	"authorization/service/v1/validate-by-role": [
+		"Service"
+	]
+}
+key : Rest Resource Name
+value : Array of role names
+
+1.4 TokenMap table
+This table list all tokens that are authenticated and each looks like this
+{
+	"00ca922a-a34b-4b8f-88ed-ab2fae3985a1": {
+		"authenticationToken": "cb96585b-2246-40e5-91b1-7d10d72a8eed",
+		"status": "user-authenticated",
+		"applicationName": "android-app",
+		"applicationAuthenticatedAt": "2017-01-24T03:55:41.091Z",
+		"clientId": "cecurity-client-secret",
+		"clientAuthenticatedAt": "2017-01-24T03:55:59.141Z",
+		"accessToken": "00ca922a-a34b-4b8f-88ed-ab2fae3985a1",
+		"userId": "Admin",
+		"roleId": "Service",
+		"userAuthenticatedAt": "2017-01-24T03:56:06.484Z",
+		"tokeValidTill": "2017-01-25T01:56:06.483Z"
+	}
+}
+key : Access Token
+authenticationToken : Authentication token for valid application
+status : User authenticated after valid authentication
+applicationName : Application Name
+applicationAuthenticatedAt : Time of authentication of application
+clientId : Valid MAC Address or IMEI number
+clientAuthenticatedAt : Time of authentication of client id
+accessToken : Access token to request any rest resourecs
+userId : Login Id of application user
+roleId : Role Id of application user
+userAuthenticatedAt : Time of Login/Authentication
+tokeValidTill : Expire time of a token
+
